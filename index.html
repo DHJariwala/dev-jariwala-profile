@@ -1,0 +1,249 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>    
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <style>
+        html, body {
+          height: 100%;
+        }
+        @keyframes bounce-up {
+            0%, 20%, 50%, 80%, 100% {
+              transform: translateY(0);
+            }
+            40% {
+              transform: translateY(-10px);
+            }
+            60% {
+              transform: translateY(-5px);
+            }
+          }
+          
+        @keyframes bounce {
+            0%, 20%, 50%, 80%, 100% {
+              transform: translateY(0);
+            }
+            40% {
+              transform: translateY(10px);
+            }
+            60% {
+              transform: translateY(5px);
+            }
+          }
+          .down-arrow {
+            animation: bounce 2s infinite;
+          }
+
+        .up-arrow{
+            animation: bounce-up 2s infinite;
+        }
+    </style>
+    <!-- Option 1: Include in HTML -->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
+  </head>
+  <body>
+    <div class="container-fluid d-flex justify-content-center align-items-center vh-100" id="head">
+        <div>
+          <h1 class="text-center">Dev Jariwala</h1>
+          <p class="text-center">Have a look at my Coding Life</p>
+          <div class="text-center down-arrow">
+            <a href="#projects">              
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-chevron-down" viewBox="0 0 16 16">
+                    <path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708"/>
+                </svg>
+            </a>
+          </div>
+        </div>
+    </div>
+    <div class="container-fluid d-block d-md-block justify-content-center align-items-center vh-100" id="projects">
+        <div>
+            <h1 class="text-center d-flex justify-content-center align-items-center">
+                <div class="up-arrow ml-2">
+                    <a href="#head">              
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-chevron-up" viewBox="0 0 16 16">
+                            <path fill-rule="evenodd" d="M7.646 4.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1-.708.708L8 5.707l-5.646 5.647a.5.5 0 0 1-.708-.708z"/>
+                        </svg>
+                    </a>
+                </div> &nbsp;&nbsp;
+                Projects&nbsp;&nbsp;
+                    <div class="down-arrow">
+                        <a href="#education">              
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-chevron-down" viewBox="0 0 16 16">
+                                <path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708"/>
+                            </svg>
+                        </a>
+                    </div>
+                </h1>
+
+            <div class="container">
+                <div class="row">
+                    <div class="col border-right">
+                        <b><div class="row">
+                    <div class="col border-right">
+                        <b>Face Recognition Using Minimal Labelled Data</b>
+                    </div>
+                    <div class="col">
+                        <p>
+                            Python<br>Tensorflow<br>NumPy<br>MySQL<br>Flask<br>Jinja2
+                        </p>
+                    </div>
+                </div><br></b>
+                    </div>
+                    <div class="col">
+                        <p>
+                            <b>Spearheaded</b> the creation and fine-tuning of a state-of-the-art one-shot learning model, enabling precise student identification in video footage with minimal training data requirements.<br>
+                            <b>Engineered</b> a sleek and intuitive website interface for seamless attendance tracking, empowering educators with efficient tools to manage classroom attendance effortlessly.<br>
+                            <b>Architected</b> a robust and scalable database infrastructure to securely store comprehensive student profiles and attendance records, ensuring data integrity and accessibility.<br>
+                            <b>Innovatively</b> integrated one-shot learning capabilities into the system, facilitating automated addition of student data to the database, revolutionizing the data entry process.
+                        </p>
+                    </div>
+                </div><br>
+                <div class="row">
+                    <div class="col border-right">
+                        <b><div class="row">
+                    <div class="col border-right">
+                        <b>Credit Card Fraud Detection</b>
+                    </div>
+                    <div class="col">
+                        <p>
+                            Python<br>sklearn<br>NumPy<br>Pandas
+                        </p>
+                    </div>
+                </div><br></b>
+                    </div>
+                    <div class="col">
+                        <p>
+                            <b>Implemented</b> a robust system to identify and prevent fraudulent transactions, enhancing the security of financial data.<br>
+                            <b>Utilized</b> sophisticated algorithms and data science methodologies to predict and identify anomalous behavior, improving the accuracy of fraud detection.<br>
+                            <b>Managed</b> large datasets of credit card transactions, performed exploratory data analysis, and engineered features to improve model performance, demonstrating strong data management skills.
+                        </p>
+                    </div>
+                </div><br>
+                <div class="row">
+                    <div class="col border-right">
+                        <b><div class="row">
+                    <div class="col border-right">
+                        <b>Heart Disease Detection</b>
+                    </div>
+                    <div class="col">
+                        <p>
+                            Python<br>sklearn<br>NumPy<br>Pandas
+                        </p>
+                    </div>
+                </div><br></b>
+                    </div>
+                    <div class="col">
+                        <p>
+                            <b>Developed</b> an innovative system to predict the likelihood of heart disease, contributing to proactive healthcare and potentially saving lives.<br>
+                            <b>Utilized</b> advanced machine learning algorithms to analyze health data and predict heart disease, demonstrating proficiency in applying AI for healthcare solutions. <br>
+                            <b>Handled</b> complex health datasets, conducted thorough data analysis, and engineered relevant features to enhance the predictive model's performance, showcasing strong analytical skills and attention to detail.
+
+                        </p>
+                    </div>
+                </div><br>
+                <div class="row">
+                    <div class="col border-right">
+                        <b><div class="row">
+                    <div class="col border-right">
+                        <b>Automated Tax Administration Software</b>
+                    </div>
+                    <div class="col">
+                        <p>
+                            Python<br>NumPy<br>Pandas<br>Flask<br>Jinja2
+                        </p>
+                    </div>
+                </div><br></b>
+                    </div>
+                    <div class="col">
+                        <p>
+                            <b>Engineered</b> a real-time tax computation feature using Python and Pandas, enabling precise tax calculations based on user inputs and tax brackets.<br>
+                            <b>Designed</b> an intuitive interface for seamless data formatting and input, enhancing user experience and accessibility.<br>
+                            <b>Conducted</b> rigorous testing to ensure the reliability and accuracy of tax computations, maintaining compliance with regulatory standards.
+                        </p>
+                    </div>
+                </div><br>
+                <div class="row">
+                    <div class="col border-right">
+                        <b><div class="row">
+                    <div class="col border-right">
+                        <b>Fullstack Graphic Novel Website</b>
+                    </div>
+                    <div class="col">
+                        <p>
+                            Python<br>Flask<br>MySQL<br>Jinja2<br>Firebase
+                        </p>
+                    </div>
+                </div><br></b>
+                    </div>
+                    <div class="col">
+                        <p>
+                            <b>Created</b> a complex algorithm which retrieves and sorts multi-nodal data around Graphic Novels.<br>
+                            <b>Created</b> fully authenticated services.<br>
+                            <b>Created</b> a real-time notification system for end-to-end users.
+
+                        </p>
+                    </div>
+                </div><br>
+            </div>
+        </div>
+        <div class="container-fluid d-block d-md-block justify-content-center align-items-center vh-100" id="education">
+            <div>
+                <h1 class="text-center d-flex justify-content-center align-items-center">
+                    <div class="up-arrow ml-2">
+                        <a href="#projects">              
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-chevron-up" viewBox="0 0 16 16">
+                                <path fill-rule="evenodd" d="M7.646 4.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1-.708.708L8 5.707l-5.646 5.647a.5.5 0 0 1-.708-.708z"/>
+                            </svg>
+                        </a>
+                    </div> &nbsp;&nbsp;
+                    Education&nbsp;&nbsp;
+                    <div class="down-arrow">
+                        <a href="#education">              
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-chevron-down" viewBox="0 0 16 16">
+                                <path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708"/>
+                            </svg>
+                        </a>
+                    </div>
+                </h1><br>
+                <div class="row">
+                    <div class="col border-right">
+                        <div class="container">
+                            <img src="njit.png" class="img-thumbnail" alt="NJIT" style="border: 0px;">
+                        </div>
+                    </div>
+                    <div class="col">
+                        <b>New Jersey Institute of Technology</b><br>
+                        <i>Master's Degree in Computer Science</i><br><br>
+                        <b>Coursework:</b><br>
+                        Data Mining <br>
+                        Data Management System Design <br>
+                        Operating System
+                    </div>
+                </div><br>
+                <div class="row">
+                    <div class="col border-right">
+                        <div class="container">
+                            <img src="svnit.png" class="img-thumbnail" alt="SVNIT" style="border: 0px;">
+                        </div>
+                    </div>
+                    <div class="col">
+                        <b>Sardar Vallabhbhai National Institute of Technology</b><br>
+                        <i>Bachelor's Degree in Computer Science and Engineering</i><br><br>
+                        <b>Coursework:</b><br>
+                        Artificial Intelligence<br>Data Science<br> Neural Networks<br> Data Warehousing and Mining<br> Deep Learning<br> Computer Vision<br> Data Structures (C++ and Python)<br> Design & Analysis of Algorithm (Python)<br> Operating Systems<br>
+                    </div>
+                </div>
+                <br><br><br>
+            </div>
+        </div>
+    </div>
+    
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+</body>
+  </body>
+</html>
